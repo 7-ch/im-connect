@@ -1,0 +1,55 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String   @id @default(uuid())
+  username     String?  @unique
+  password     String?
+  name         String
+  role         String   // 'enterprise' | 'expert'
+  title        String?
+  organization String?
+  avatar       String?
+  bio          String?
+  specialty    String?  // JSON string or comma separated
+  mobile       String?
+  enterpriseType String? // 'Technology' | 'Manufacturing' | 'Service' | 'Other'
+  address      String?
+  latitude     Float?
+  longitude    Float?
+  creditCode   String? // Unified Social Credit Identifier
+  createdAt    DateTime @default(now())
+}
+
+model Conversation {
+  id            String    @id @default(uuid())
+  participantId String    // The other person in the chat (simplified for this one-on-one app view)
+  userId        String    // The owner of this conversation view (the "me" user)
+  unreadCount   Int       @default(0)
+  pinned        Boolean   @default(false)
+  updatedAt     DateTime  @updatedAt
+  
+  messages      Message[]
+}
+
+model Message {
+  id          String   @id @default(uuid())
+  senderId    String
+  receiverId  String
+  content     String
+  type        String   // 'text' | 'image' | 'video' | 'file'
+  fileName    String?
+  fileSize    String?
+  status      String   // 'sent' | 'read'
+  recalled    Boolean  @default(false)
+  timestamp   DateTime @default(now())
+
+  conversation   Conversation? @relation(fields: [conversationId], references: [id])
+  conversationId String?
+}
