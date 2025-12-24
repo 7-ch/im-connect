@@ -23,13 +23,19 @@ IM Connect 是一个强大的即时通讯平台，旨在连接**企业**与**行
 ## 📸 界面预览
 
 <div align="center">
-  <img src="./public/login.png" alt="登录页面" width="800" />
-  <p><i>登录页面</i></p>
+  <h3>登录页面</h3>
+  <img src="./public/login.png" alt="桌面端登录" width="600" />
+  <img src="./public/login_mobile.png" alt="移动端登录" width="200" />
+  <p><i>桌面端与移动端登录</i></p>
 
-  <img src="./public/Chat+Interface.png" alt="聊天界面" width="800" />
-  <p><i>实时聊天界面</i></p>
+  <h3>聊天界面</h3>
+  <img src="./public/Chat+Interface.png" alt="桌面端聊天" width="600" />
+  <img src="./public/Chat+Interface_mobile.png" alt="移动端聊天" width="200" />
+  <p><i>实时聊天 (响应式设计)</i></p>
   
-  <img src="./public/Expert+Profile.png" alt="专家主页" width="800" />
+  <h3>用户主页</h3>
+  <img src="./public/Expert+Profile.png" alt="桌面端主页" width="600" />
+  <img src="./public/Expert+Profile_mobile.png" alt="移动端主页" width="200" />
   <p><i>用户与专家详情页</i></p>
 </div>
 

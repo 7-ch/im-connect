@@ -30,14 +30,20 @@ IM Connect is a robust, real-time instant messaging platform designed to bridge 
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="./public/login.png" alt="Login Page" width="800" />
-  <p><i>Login Page</i></p>
+  <h3>Login Page</h3>
+  <img src="./public/login.png" alt="Login Desktop" width="600" />
+  <img src="./public/login_mobile.png" alt="Login Mobile" width="200" />
+  <p><i>Desktop & Mobile Login</i></p>
 
-  <img src="./public/Chat+Interface.png" alt="Chat Interface" width="800" />
-  <p><i>Real-time Chat Interface</i></p>
+  <h3>Chat Interface</h3>
+  <img src="./public/Chat+Interface.png" alt="Chat Desktop" width="600" />
+  <img src="./public/Chat+Interface_mobile.png" alt="Chat Mobile" width="200" />
+  <p><i>Real-time Chat (Responsive)</i></p>
   
-  <img src="./public/Expert+Profile.png" alt="Expert Profile" width="800" />
-  <p><i>User & Expert Profiles</i></p>
+  <h3>User Profile</h3>
+  <img src="./public/Expert+Profile.png" alt="Profile Desktop" width="600" />
+  <img src="./public/Expert+Profile_mobile.png" alt="Profile Mobile" width="200" />
+  <p><i>Expert Profile View</i></p>
 </div>
 
 ## 🛠 Tech Stack
