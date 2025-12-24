@@ -26,6 +26,20 @@ IM Connect is a robust, real-time instant messaging platform designed to bridge 
 - **Search**: Efficient lookup for messages and contacts.
 - **Responsive UI**: Modern, clean interface built with Tailwind CSS and Framer Motion.
 
+
+## 📸 Screenshots
+
+<div align="center">
+  <img src="./public/login.png" alt="Login Page" width="800" />
+  <p><i>Login Page</i></p>
+
+  <img src="./public/Chat+Interface.png" alt="Chat Interface" width="800" />
+  <p><i>Real-time Chat Interface</i></p>
+  
+  <img src="./public/Expert+Profile.png" alt="Expert Profile" width="800" />
+  <p><i>User & Expert Profiles</i></p>
+</div>
+
 ## 🛠 Tech Stack
 
 ### Frontend

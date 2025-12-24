@@ -1,7 +1,19 @@
 {
   "name": "im-connect",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "A robust, real-time instant messaging platform connecting Enterprises and Experts. Built with React 19, Node.js, WebSocket, and Prisma.",
+  "keywords": [
+    "react",
+    "nodejs",
+    "websocket",
+    "prisma",
+    "chat",
+    "instant-messaging",
+    "tailwindcss"
+  ],
+  "author": "7-ch",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",

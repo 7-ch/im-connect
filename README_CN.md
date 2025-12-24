@@ -19,6 +19,20 @@ IM Connect 是一个强大的即时通讯平台，旨在连接**企业**与**行
 - **搜索**: 高效的消息和联系人查找。
 - **响应式 UI**: 基于 Tailwind CSS 和 Framer Motion 构建的现代简洁界面。
 
+
+## 📸 界面预览
+
+<div align="center">
+  <img src="./public/login.png" alt="登录页面" width="800" />
+  <p><i>登录页面</i></p>
+
+  <img src="./public/Chat+Interface.png" alt="聊天界面" width="800" />
+  <p><i>实时聊天界面</i></p>
+  
+  <img src="./public/Expert+Profile.png" alt="专家主页" width="800" />
+  <p><i>用户与专家详情页</i></p>
+</div>
+
 ## 🛠 技术栈
 
 ### 前端 (Frontend)
