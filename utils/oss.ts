@@ -503,7 +503,7 @@ export async function uploadFileToOss(
     },
   };
 
-  // 1）生成对象 key：优先使用业务自定义 buildKey，其次使用默认规则；统一加上根前缀 yqa-biz
+  // 1）生成对象 key：优先使用业务自定义 buildKey，其次使用默认规则；统一加上根前缀 im-biz
   const rawKey = options.buildKey
     ? options.buildKey(ctx)
     : buildDefaultObjectKey(options.prefix, ctx);
@@ -513,10 +513,10 @@ export async function uploadFileToOss(
     throw new Error('文件路径生成失败，请稍后重试');
   }
 
-  // 2）确保 key 以 yqa-biz/ 开头
-  const key = cleanedRawKey.startsWith('yqa-biz/')
+  // 2）确保 key 以 im-biz/ 开头
+  const key = cleanedRawKey.startsWith('im-biz/')
     ? cleanedRawKey
-    : `yqa-biz/${cleanedRawKey}`;
+    : `im-biz/${cleanedRawKey}`;
 
   // 3）根据大小 / 强制选项选择 put 或 multipartUpload
   const threshold =

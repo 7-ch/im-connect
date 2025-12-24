@@ -1,5 +1,12 @@
 # Deployment Instructions
 
+<div align="center">
+  <p>
+    <a href="./DEPLOY.md">English</a> | <a href="./DEPLOY_CN.md">简体中文</a>
+  </p>
+</div>
+
+
 This guide provides instructions for deploying the AN-IM application, including database setup and seeding.
 
 ## Prerequisites

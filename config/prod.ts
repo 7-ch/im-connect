@@ -1,7 +1,7 @@
 import { Config } from './types';
 
 export const prodConfig: Config = {
-  apiUrl: 'https://api.17an.com',
+  apiUrl: 'https://api.im-connect.com',
   env: 'prod',
   timeout: 15000,
 };

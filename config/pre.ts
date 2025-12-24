@@ -1,7 +1,7 @@
 import { Config } from './types';
 
 export const preConfig: Config = {
-  apiUrl: 'https://api-pre.17an.com',
+  apiUrl: 'https://api-pre.im-connect.com',
   env: 'pre',
   timeout: 15000,
 };

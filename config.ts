@@ -21,7 +21,7 @@ const getEnv = (): EnvType => {
   }
   if (hostname.includes('test')) return 'test';
   if (hostname.includes('pre')) return 'pre';
-  if (hostname === '17an.com' || hostname === 'www.17an.com') return 'prod';
+  if (hostname === 'im-connect.com' || hostname === 'www.im-connect.com') return 'prod';
   
   return 'test'; // 默认回退到测试环境
 };
